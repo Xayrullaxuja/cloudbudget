@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
     .container {
         width: 1600px;
     }
@@ -48,7 +48,7 @@ header .nav button{
 .middle-header{
     background-image: url(img/background.png);
     background-size: cover;
-    padding: 265px 0;
+    padding: 220px 0;
 }
 
 .middle-header h1{
@@ -248,6 +248,22 @@ section.contacts .col-sm-6 button:hover{
     transform: translateZ(100px);
 }
 
+@media (max-width: 1920px){
+    .middle-header h1 {
+        font-size: 85px;
+    }
+
+    .middle-header p {
+        width: 560px;
+        font-size: 29px;
+    }
+
+    .middle-header button {
+        width: 190px;
+        height: 65px;
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 400px){
     header .nav .logo{
@@ -376,19 +392,4 @@ section.contacts .col-sm-6 button:hover{
     }
 }
 
-@media (min-width: 1920px){
-    .middle-header h1 {
-        font-size: 85px;
-    }
 
-    .middle-header p {
-        width: 560px;
-        font-size: 29px;
-    }
-
-    .middle-header button {
-        width: 190px;
-        height: 65px;
-        font-size: 16px;
-    }
-}
